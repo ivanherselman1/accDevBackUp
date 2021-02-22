@@ -6,7 +6,7 @@ public class batchLearning implements Database.Batchable<SObject>, Database.Stat
     
     public Database.QueryLocator start(database.BatchableContext BC){
         
-        string query = 'SELECT Id FROM Account' ; 
+        string query = 'SELECT Id FROM Account' ;
        
         system.debug('the query is '+query);
         return Database.getQueryLocator('SELECT Id,Name FROM Account');
@@ -15,7 +15,7 @@ public class batchLearning implements Database.Batchable<SObject>, Database.Stat
     
   public void execute(Database.BatchableContext BC, List<Account> scope){
       
-      system.debug('WE HAVE are entering das good);
+      system.debug('WE HAVE are entering das good');
       list<contact> contsToUpdate = new List<contact>();
     
       for(account a : scope){
