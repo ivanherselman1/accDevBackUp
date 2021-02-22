@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Applicant</fullName>
+        <default>false</default>
+        <label>Applicant</label>
+    </customValue>
+    <customValue>
+        <fullName>Respondent</fullName>
+        <default>false</default>
+        <label>Respondent</label>
+    </customValue>
+    <customValue>
+        <fullName>Plaintiff</fullName>
+        <default>false</default>
+        <label>Plaintiff</label>
+    </customValue>
+    <customValue>
+        <fullName>Defendant</fullName>
+        <default>false</default>
+        <label>Defendant</label>
+    </customValue>
+    <customValue>
+        <fullName>Appellant</fullName>
+        <default>false</default>
+        <label>Appellant</label>
+    </customValue>
+    <masterLabel>Case Party Role</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

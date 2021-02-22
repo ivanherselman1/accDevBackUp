@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Summons</fullName>
+        <default>false</default>
+        <label>Summons</label>
+    </customValue>
+    <customValue>
+        <fullName>Notice of Motion</fullName>
+        <default>false</default>
+        <label>Notice of Motion</label>
+    </customValue>
+    <customValue>
+        <fullName>Affidavit</fullName>
+        <default>false</default>
+        <label>Affidavit</label>
+    </customValue>
+    <masterLabel>Forum Document Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
