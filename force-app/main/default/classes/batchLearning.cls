@@ -15,7 +15,7 @@ public class batchLearning implements Database.Batchable<SObject>, Database.Stat
     
   public void execute(Database.BatchableContext BC, List<Account> scope){
       
-      system.debug('WE HAVE ENTERED THE EXECUTE METHOD');
+      system.debug('WE HAVE are entering das good);
       list<contact> contsToUpdate = new List<contact>();
     
       for(account a : scope){
